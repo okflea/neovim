@@ -11,16 +11,13 @@
 --   }
 -- end
 
-<<<<<<< HEAD
 lvim.builtin.treesitter.ensure_installed = { "javascript" }
-=======
 lvim.builtin.treesitter.ensure_installed = {
   "java",
   "python",
   "javascript"
 }
 
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 lvim.builtin.treesitter.autotag.enable = true
 lvim.builtin.treesitter.auto_install = false
 

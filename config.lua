@@ -6,16 +6,13 @@ reload "user.lsp"
 reload "user.smoothie"
 reload "user.harpoon"
 reload "user.cybu"
-<<<<<<< HEAD
 reload "user.surround"
 -- reload "user.bookmark"
-=======
 
 reload "Exafunction/codeium.vim"
 -- reload "user.neotest"
 reload "user.surround"
 reload "user.bookmark"
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 reload "user.todo-comments"
 reload "user.jaq"
 reload "user.fidget"
@@ -25,11 +22,8 @@ reload "user.zen-mode"
 reload "user.inlay-hints"
 reload "user.telescope"
 reload "user.bqf"
-<<<<<<< HEAD
 -- reload "user.dial"
-=======
 reload "user.dial"
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 reload "user.numb"
 reload "user.treesitter"
 reload "user.neogit"
@@ -40,7 +34,6 @@ reload "user.scrollbar"
 -- reload "user.copilot"
 -- reload "user.chatgpt"
 reload "user.whichkey"
-<<<<<<< HEAD
 -- reload "user.neoai"
 -- lvim.builtin.cmp.formatting.source_names["copilot"] = "(Copilot)"table.insert(lvim.builtin.cmp.sources, 1, { name = "copilot" })
 
@@ -51,7 +44,6 @@ reload "user.whichkey"
 --   i = { "<cmd>lua require('swenv.api').pick_venv()<cr>", "Pick Env" },
 --   d = { "<cmd>lua require('swenv.api').get_current_venv()<cr>", "Show Env" },
 -- }
-=======
 reload "user.neoai"
 -- lvim.builtin.cmp.formatting.source_names["copilot"] = "(Copilot)"table.insert(lvim.builtin.cmp.sources, 1, { name = "copilot" })
 
@@ -70,4 +62,3 @@ keymap("n", "<m-j>", "<C-w>j", opts)
 keymap("n", "<m-k>", "<C-w>k", opts)
 keymap("n", "<m-l>", "<C-w>l", opts)
 keymap("n", "<m-tab>", "<c-6>", opts)
->>>>>>> 2cd9ca7 (hop,codeium,fun)

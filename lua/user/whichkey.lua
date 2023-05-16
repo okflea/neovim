@@ -52,13 +52,10 @@ lvim.builtin.which_key.mappings["f"] = {
 }
 lvim.builtin.which_key.mappings["g"] = {
   name = "Git",
-<<<<<<< HEAD
   -- g = { "<cmd>lua require 'lvim.core.terminal'.lazygit_toggle(12000)<cr>", "Lazygit" },
-  g = { "<cmd>Neogit<cr>", "Neogit" },
-=======
+  -- g = { "<cmd>Neogit<cr>", "Neogit" },
   g = { "<cmd>lua require 'lvim.core.terminal'.lazygit_toggle(12000)<cr>", "Lazygit" },
   -- g = { "<cmd>Neogit<cr>", "Neogit" },
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   j = { "<cmd>lua require 'gitsigns'.next_hunk()<cr>", "Next Hunk" },
   k = { "<cmd>lua require 'gitsigns'.prev_hunk()<cr>", "Prev Hunk" },
   l = { "<cmd>GitBlameToggle<cr>", "Blame" },

@@ -177,8 +177,6 @@ vim.api.nvim_create_autocmd({ "CursorHold" }, {
 --     vim.lsp.buf.format { async = true }
 --   end,
 -- })
-<<<<<<< HEAD
-=======
 
 -- do things when lsp attaches
 vim.api.nvim_create_autocmd('LspAttach', {
@@ -189,4 +187,3 @@ vim.api.nvim_create_autocmd('LspAttach', {
     -- print(vim.inspect(client))
   end
 })
->>>>>>> 2cd9ca7 (hop,codeium,fun)

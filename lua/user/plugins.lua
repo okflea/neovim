@@ -1,6 +1,5 @@
 -- Additional Plugins
 lvim.plugins = {
-<<<<<<< HEAD
   -- "olivercederborg/poimandres.nvim",
   -- "AckslD/swenv.nvim",
   -- "bluz71/vim-moonfly-colors",
@@ -14,7 +13,6 @@ lvim.plugins = {
   "christianchiarulli/nvim-ts-rainbow",
   "mfussenegger/nvim-jdtls",
   "karb94/neoscroll.nvim",
-=======
   "stevearc/dressing.nvim",
   -- "AckslD/swenv.nvim",
   "lunarvim/onedarker.nvim",
@@ -24,18 +22,14 @@ lvim.plugins = {
   "nvim-treesitter/playground",
   "nvim-treesitter/nvim-treesitter-textobjects",
   "mfussenegger/nvim-jdtls",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   "opalmay/vim-smoothie",
   "j-hui/fidget.nvim",
   "christianchiarulli/nvim-ts-autotag",
   "kylechui/nvim-surround",
-<<<<<<< HEAD
   -- "christianchiarulli/harpoon",
   -- "MattesGroeger/vim-bookmarks",
-=======
   "christianchiarulli/harpoon",
   "MattesGroeger/vim-bookmarks",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   "NvChad/nvim-colorizer.lua",
   "ghillb/cybu.nvim",
   "moll/vim-bbye",
@@ -44,24 +38,20 @@ lvim.plugins = {
   "f-person/git-blame.nvim",
   "ruifm/gitlinker.nvim",
   "mattn/vim-gist",
-<<<<<<< HEAD
   -- "mattn/webapi-vim",
   "folke/zen-mode.nvim",
   "lvimuser/lsp-inlayhints.nvim",
   "lunarvim/darkplus.nvim",
   -- "lunarvim/templeos.nvim",
-=======
   "mattn/webapi-vim",
   "folke/zen-mode.nvim",
   "lvimuser/lsp-inlayhints.nvim",
   "lunarvim/darkplus.nvim",
   "lunarvim/templeos.nvim",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   "kevinhwang91/nvim-bqf",
   "is0n/jaq-nvim",
   -- "hrsh7th/cmp-emoji",
   {
-<<<<<<< HEAD
     "ggandor/leap.nvim",
     as = "leap",
     config = function()
@@ -72,7 +62,7 @@ lvim.plugins = {
   "TimUntersberger/neogit",
   "sindrets/diffview.nvim",
   -- "simrat39/rust-tools.nvim",
-=======
+  {
   "phaazon/hop.nvim",
   event = "BufRead",
   config = function()
@@ -80,11 +70,11 @@ lvim.plugins = {
     vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
     vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
   end,
-},"nacro90/numb.nvim",
+},
+  "nacro90/numb.nvim",
   "TimUntersberger/neogit",
   "sindrets/diffview.nvim",
   "simrat39/rust-tools.nvim",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   "olexsmir/gopher.nvim",
   "leoluz/nvim-dap-go",
   -- "mfussenegger/nvim-dap-python",
@@ -92,7 +82,6 @@ lvim.plugins = {
   "mxsdev/nvim-dap-vscode-js",
   "petertriho/nvim-scrollbar",
   -- "renerocksai/telekasten.nvim",
-<<<<<<< HEAD
 
   {
     'Exafunction/codeium.vim',
@@ -104,8 +93,6 @@ lvim.plugins = {
       vim.keymap.set('i', '<C-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
     end
   },
-=======
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   -- "renerocksai/calendar-vim",
   -- {
   --   "saecki/crates.nvim",
@@ -122,7 +109,6 @@ lvim.plugins = {
   -- },
   -- "MunifTanjim/nui.nvim",
   -- "jackMort/ChatGPT.nvim",
-<<<<<<< HEAD
   -- {
   --   "jinh0/eyeliner.nvim",
   --   config = function()
@@ -133,7 +119,6 @@ lvim.plugins = {
   -- },
   -- { "christianchiarulli/telescope-tabs", branch = "chris" },
   -- "monaqa/dial.nvim",
-=======
   {
     "jinh0/eyeliner.nvim",
     config = function()
@@ -144,7 +129,6 @@ lvim.plugins = {
   },
   { "christianchiarulli/telescope-tabs", branch = "chris" },
   "monaqa/dial.nvim",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   {
     "0x100101/lab.nvim",
     build = "cd js && npm ci",
@@ -167,16 +151,13 @@ lvim.plugins = {
   --   build = "./install.sh",
   -- },
 
-<<<<<<< HEAD
   -- "MunifTanjim/nui.nvim",
   -- "Bryley/neoai.nvim",
-=======
   "MunifTanjim/nui.nvim",
   "Bryley/neoai.nvim",
   -- "mfussenegger/nvim-dap-python",
   -- "nvim-neotest/neotest",
   -- "nvim-neotest/neotest-python",
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   -- {
   --   "folke/noice.nvim",
   --   event = "VimEnter",
@@ -188,9 +169,7 @@ lvim.plugins = {
   -- https://github.com/jose-elias-alvarez/typescript.nvim
   -- "rmagatti/auto-session",
   -- "rmagatti/session-lens"
-<<<<<<< HEAD
-}
-=======
+-- }
   "christianchiarulli/nvim-ts-rainbow",
   "karb94/neoscroll.nvim",
   {
@@ -203,4 +182,3 @@ lvim.plugins = {
       vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
     end
   } }
->>>>>>> 2cd9ca7 (hop,codeium,fun)

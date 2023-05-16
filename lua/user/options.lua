@@ -1,17 +1,14 @@
-<<<<<<< HEAD
 lvim.colorscheme = "darkplus"
 -- lvim.colorscheme = "poimandres"
 -- lvim.colorscheme = "poimandres"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
-lvim.lsp.diagnostics.float.focusable = true
-=======
+-- lvim.lsp.diagnostics.float.focusable = true
 -- lvim.colorscheme = "darkplus"
 -- lvim.colorscheme = "poimandres"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
 -- lvim.lsp.diagnostics.float.focusable = true
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 lvim.reload_config_on_save = false
 lvim.builtin.illuminate.active = false
 lvim.builtin.bufferline.active = false
@@ -19,10 +16,7 @@ lvim.builtin.bufferline.active = false
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
-<<<<<<< HEAD
 lvim.transparent_window=true
-=======
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 -- lvim.builtin.nvimtree.setup.view.mappings.custom_only = true
 lvim.builtin.breadcrumbs.active = true
 -- lvim.builtin.treesitter.highlight.enabled = true
@@ -84,11 +78,8 @@ local options = {
   relativenumber = true, -- set relative numbered lines
   numberwidth = 4,       -- set number column width to 2 {default 4}
   signcolumn = "yes",    -- always show the sign column, otherwise it would shift the text each time
-<<<<<<< HEAD
   wrap = false,          -- display lines as one long line
-=======
   wrap = true,          -- display lines as one long line
->>>>>>> 2cd9ca7 (hop,codeium,fun)
   scrolloff = 0,
   sidescrolloff = 8,
   guifont = "monospace:h17", -- the font used in graphical neovim applications
@@ -105,11 +96,8 @@ vim.opt.fillchars = vim.opt.fillchars + "eob: "
 vim.opt.fillchars:append {
   stl = " ",
 }
-<<<<<<< HEAD
 
-=======
 lvim.transparent_window = true
->>>>>>> 2cd9ca7 (hop,codeium,fun)
 vim.opt.shortmess:append "c"
 
 for k, v in pairs(options) do
@@ -133,10 +121,7 @@ lvim.builtin.nvimtree.setup.view.mappings.list = {
   { key = "<C-k>",              action = "" },
   { key = "C",                  action = "cd" },
 }
-<<<<<<< HEAD
 
 
 -- lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 -- lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
-=======
->>>>>>> 2cd9ca7 (hop,codeium,fun)
