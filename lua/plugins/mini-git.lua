@@ -1,1 +1,5 @@
-return { "echasnovski/mini-git", version = false, main = "mini.git" }
+return {
+  "echasnovski/mini-git",
+  opts = {},
+  main = "mini.git",
+}

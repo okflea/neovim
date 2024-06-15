@@ -91,4 +91,4 @@ opt.wrap = true -- Disable line wrap
 -- vim.g.markdown_recommended_style = 0
 --
 --
-vim.o.guifont = "Berkeley Mono:h10" -- text below applies for VimScript
+vim.o.guifont = "Berkeley Mono:h12" -- text below applies for VimScript

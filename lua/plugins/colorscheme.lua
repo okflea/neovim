@@ -1,8 +1,14 @@
--- return {
---   "folke/tokyonight.nvim",
---   lazy = true,
---   opts = { style = "moon" },
--- }
+return {
+  "folke/tokyonight.nvim",
+  opts = {
+    transparent = true,
+    style = "night",
+    styles = {
+      sidebars = "transparent",
+      floats = "transparent",
+    },
+  },
+}
 -- return {
 --   { "ellisonleao/gruvbox.nvim" },
 --   {
@@ -12,15 +18,15 @@
 --     },
 --   },
 -- }
-return {
-  { "rebelot/kanagawa.nvim" },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "kanagawa-dragon",
-    },
-  },
-}
+-- return {
+--   { "rebelot/kanagawa.nvim" },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "kanagawa-dragon",
+--     },
+--   },
+-- }
 --
 -- return {
 --   "catppuccin/nvim",
